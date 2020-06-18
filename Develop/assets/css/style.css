@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Stylings*/
+.header {
+    height: 100px;
+    background-color: #2a607c;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+/* Header Logo Stylings */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    float: left;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+    position: relative;
+}
+
+/* Link Stylings in Header */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Paragraph Font */
+p {
+    font-size: 16px;
+}
+
+/* Float Stylings */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Setting Background Color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Hero Image Stylings */
+.hero {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Setting Article Section Stylings */
+section.content {
+    width: 75%;
+    margin-left: 20px;
+    clear: both;
+    float: left;
+    position: relative;
+}
+
+/* Article Text & Background Stylings */
+article.search-engine-optimization, article.online-reputation-management, article.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    min-height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Article Image Stylings */
+article.search-engine-optimization img, article.online-reputation-management img, article.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Article Headers */
+article.search-engine-optimization h2, article.online-reputation-management h2, article.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Side-Bar Stylings */
+section.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    max-width: 20%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    position: relative;
+}
+
+/* Side-Bar Article Stylings */
+article.benefit-lead, article.benefit-brand, article.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Side-Bar Article Headers */
+article.benefit-lead h3, article.benefit-brand h3, article.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Side-Bar Article Images */
+article.benefit-lead img, article.benefit-brand img, article.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer Stylings */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Footer Header */
+.footer h2 {
+    font-size: 20px;
+}
