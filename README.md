@@ -19,4 +19,4 @@ source: https://codepen.io/mutedblues/pen/MmPNPG
 - Added comments to increase readability of file
 
 # Additional Changes
--Resized images to optimize page speed and appearance
+- Resized images to optimize page speed and appearance
